@@ -53,8 +53,8 @@
   margin: 0;
 }
 
-.aui .bootstrap-context [uib-popover-popup].bootstrap-context.popover,
-.aui .bootstrap-context [uib-popover-html-popup].bootstrap-context.popover,
-.aui .bootstrap-context [uib-popover-template-popup].bootstrap-context.popover {
+.aui [uib-popover-popup].bootstrap-context.popover,
+.aui [uib-popover-html-popup].bootstrap-context.popover,
+.aui [uib-popover-template-popup].bootstrap-context.popover {
   display: block !important;
 }
