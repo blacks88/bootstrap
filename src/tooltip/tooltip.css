@@ -22,30 +22,30 @@
 .aui .bootstrap-context [uib-tooltip-template-popup].tooltip.left-bottom > .tooltip-arrow,
 .aui .bootstrap-context [uib-tooltip-template-popup].tooltip.right-top > .tooltip-arrow,
 .aui .bootstrap-context [uib-tooltip-template-popup].tooltip.right-bottom > .tooltip-arrow,
-.aui .bootstrap-context [uib-popover-popup].popover.top-left > .arrow,
-.aui .bootstrap-context [uib-popover-popup].popover.top-right > .arrow,
-.aui .bootstrap-context [uib-popover-popup].popover.bottom-left > .arrow,
-.aui .bootstrap-context [uib-popover-popup].popover.bottom-right > .arrow,
-.aui .bootstrap-context [uib-popover-popup].popover.left-top > .arrow,
-.aui .bootstrap-context [uib-popover-popup].popover.left-bottom > .arrow,
-.aui .bootstrap-context [uib-popover-popup].popover.right-top > .arrow,
-.aui .bootstrap-context [uib-popover-popup].popover.right-bottom > .arrow,
-.aui .bootstrap-context [uib-popover-html-popup].popover.top-left > .arrow,
-.aui .bootstrap-context [uib-popover-html-popup].popover.top-right > .arrow,
-.aui .bootstrap-context [uib-popover-html-popup].popover.bottom-left > .arrow,
-.aui .bootstrap-context [uib-popover-html-popup].popover.bottom-right > .arrow,
-.aui .bootstrap-context [uib-popover-html-popup].popover.left-top > .arrow,
-.aui .bootstrap-context [uib-popover-html-popup].popover.left-bottom > .arrow,
-.aui .bootstrap-context [uib-popover-html-popup].popover.right-top > .arrow,
-.aui .bootstrap-context [uib-popover-html-popup].popover.right-bottom > .arrow,
-.aui .bootstrap-context [uib-popover-template-popup].popover.top-left > .arrow,
-.aui .bootstrap-context [uib-popover-template-popup].popover.top-right > .arrow,
-.aui .bootstrap-context [uib-popover-template-popup].popover.bottom-left > .arrow,
-.aui .bootstrap-context [uib-popover-template-popup].popover.bottom-right > .arrow,
-.aui .bootstrap-context [uib-popover-template-popup].popover.left-top > .arrow,
-.aui .bootstrap-context [uib-popover-template-popup].popover.left-bottom > .arrow,
-.aui .bootstrap-context [uib-popover-template-popup].popover.right-top > .arrow,
-.aui .bootstrap-context [uib-popover-template-popup].popover.right-bottom > .arrow {
+.aui [uib-popover-popup].bootstrap-context.popover.top-left > .arrow,
+.aui [uib-popover-popup].bootstrap-context.popover.top-right > .arrow,
+.aui [uib-popover-popup].bootstrap-context.popover.bottom-left > .arrow,
+.aui [uib-popover-popup].bootstrap-context.popover.bottom-right > .arrow,
+.aui [uib-popover-popup].bootstrap-context.popover.left-top > .arrow,
+.aui [uib-popover-popup].bootstrap-context.popover.left-bottom > .arrow,
+.aui [uib-popover-popup].bootstrap-context.popover.right-top > .arrow,
+.aui [uib-popover-popup].bootstrap-context.popover.right-bottom > .arrow,
+.aui [uib-popover-html-popup].bootstrap-context.popover.top-left > .arrow,
+.aui [uib-popover-html-popup].bootstrap-context.popover.top-right > .arrow,
+.aui [uib-popover-html-popup].bootstrap-context.popover.bottom-left > .arrow,
+.aui [uib-popover-html-popup].bootstrap-context.popover.bottom-right > .arrow,
+.aui [uib-popover-html-popup].bootstrap-context.popover.left-top > .arrow,
+.aui [uib-popover-html-popup].bootstrap-context.popover.left-bottom > .arrow,
+.aui [uib-popover-html-popup].bootstrap-context.popover.right-top > .arrow,
+.aui [uib-popover-html-popup].bootstrap-context.popover.right-bottom > .arrow,
+.aui [uib-popover-template-popup].bootstrap-context.popover.top-left > .arrow,
+.aui [uib-popover-template-popup].bootstrap-context.popover.top-right > .arrow,
+.aui [uib-popover-template-popup].bootstrap-context.popover.bottom-left > .arrow,
+.aui [uib-popover-template-popup].bootstrap-context.popover.bottom-right > .arrow,
+.aui [uib-popover-template-popup].bootstrap-context.popover.left-top > .arrow,
+.aui [uib-popover-template-popup].bootstrap-context.popover.left-bottom > .arrow,
+.aui [uib-popover-template-popup].bootstrap-context.popover.right-top > .arrow,
+.aui [uib-popover-template-popup].bootstrap-context.popover.right-bottom > .arrow {
   top: auto;
   bottom: auto;
   left: auto;
@@ -53,8 +53,8 @@
   margin: 0;
 }
 
-.aui .bootstrap-context [uib-popover-popup].popover,
-.aui .bootstrap-context [uib-popover-html-popup].popover,
-.aui .bootstrap-context [uib-popover-template-popup].popover {
+.aui .bootstrap-context [uib-popover-popup].bootstrap-context.popover,
+.aui .bootstrap-context [uib-popover-html-popup].bootstrap-context.popover,
+.aui .bootstrap-context [uib-popover-template-popup].bootstrap-context.popover {
   display: block !important;
 }
