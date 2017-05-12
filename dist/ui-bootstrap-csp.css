@@ -4,15 +4,15 @@
   -webkit-transition: 0s ease-in-out left;
   transition: 0s ease-in-out left
 }
-.bootstrap-context .uib-datepicker .uib-title {
+.aui .bootstrap-context .uib-datepicker .uib-title {
   width: 100%;
 }
 
-.bootstrap-context .uib-day button, .uib-month button, .uib-year button {
+.aui .bootstrap-context .uib-day button, .aui .bootstrap-context .uib-month button, .aui .bootstrap-context .uib-year button {
   min-width: 100%;
 }
 
-.bootstrap-context .uib-left,.bootstrap-context .uib-right {
+.aui .bootstrap-context .uib-left, .aui .bootstrap-context .uib-right {
   width: 100%
 }
 
